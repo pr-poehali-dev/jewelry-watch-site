@@ -78,7 +78,7 @@ const Index = () => {
 
       <main className="pt-16">
         <section id="home" className="relative h-screen flex items-center justify-center bg-gradient-to-br from-black via-black to-gray-900">
-          <div className="absolute inset-0 bg-[url('/placeholder.svg')] bg-cover bg-center opacity-20"></div>
+          <div className="absolute inset-0 bg-[url('https://cdn.poehali.dev/files/4d6a1fc1-5223-4da6-b855-f58c0a32ae93.png')] bg-cover bg-center opacity-30"></div>
           <div className="relative z-10 text-center px-6 animate-fade-in">
             <h2 className="md:text-8xl mb-6 tracking-wider mx-0 text-8xl font-thin text-[#ffffff]">RUFM&STYLE</h2>
             <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto font-light">Эксклюзивные ювелирные часы на ваш вкус</p>
