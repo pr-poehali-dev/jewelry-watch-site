@@ -159,11 +159,7 @@ const Index = () => {
         <section id="about" className="py-24 px-6 bg-black text-white">
           <div className="container mx-auto max-w-4xl text-center">
             <h2 className="text-5xl md:text-6xl mb-8 font-light tracking-wider">О БРЕНДЕ</h2>
-            <p className="text-xl leading-relaxed mb-6 text-gray-300 font-light">
-              CHRONOS — это воплощение швейцарского часового искусства, объединяющее вековые традиции 
-              мастерства с современными технологиями. Каждые часы создаются вручную лучшими мастерами 
-              из благородных металлов и драгоценных камней.
-            </p>
+            <p className="text-xl leading-relaxed mb-6 text-gray-300 font-light">Rufm&Style - это вполощение швейцарского часового исскуства, объединяющее вековые традиции мастерства со современными технологиями. Каждые часы создаются вручную лучшими мастерами из благородных металлов и драгоценных камней.</p>
             <p className="text-xl leading-relaxed text-gray-300 font-light">
               Наши изделия — это не просто часы, это произведения искусства, передающиеся из поколения 
               в поколение. Каждая деталь продумана до совершенства, каждый механизм — это результат 
@@ -171,7 +167,7 @@ const Index = () => {
             </p>
             <div className="grid md:grid-cols-3 gap-12 mt-16">
               <div className="text-center">
-                <div className="text-5xl mb-4 text-gold">150+</div>
+                <div className="text-5xl mb-4 text-gold">50+</div>
                 <p className="text-gray-400 tracking-wide">ЛЕТ ОПЫТА</p>
               </div>
               <div className="text-center">
@@ -179,7 +175,7 @@ const Index = () => {
                 <p className="text-gray-400 tracking-wide">МОДЕЛЕЙ</p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4 text-gold">50+</div>
+                <div className="text-5xl mb-4 text-gold">30+</div>
                 <p className="text-gray-400 tracking-wide">СТРАН</p>
               </div>
             </div>
@@ -197,10 +193,7 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="text-2xl mb-3 font-light">Бесплатная доставка</h3>
-                    <p className="text-gray-600 leading-relaxed">
-                      По Москве в течение 24 часов. По России и миру — курьером в индивидуальной упаковке 
-                      с сертификатом подлинности.
-                    </p>
+                    <p className="text-gray-600 leading-relaxed">По Ижевску в течение 24 часов. По России и миру — курьером в индивидуальной упаковке с сертификатом подлинности.</p>
                   </div>
                 </div>
               </Card>
@@ -255,19 +248,19 @@ const Index = () => {
             <h2 className="text-5xl md:text-6xl text-center mb-16 font-light tracking-wider">КОНТАКТЫ</h2>
             <div className="grid md:grid-cols-2 gap-12">
               <div>
-                <h3 className="text-3xl mb-6 font-light">Флагманский бутик</h3>
+                <h3 className="text-3xl mb-6 font-light">ТРЦ "Талисман"</h3>
                 <div className="space-y-4">
                   <div className="flex items-start gap-3">
                     <Icon name="MapPin" size={20} className="mt-1 text-gold" />
-                    <p className="text-gray-700">Москва, Кутузовский проспект, 2/1с1</p>
+                    <p className="text-gray-700">Ижевск, ул. Холмогорова, 11</p>
                   </div>
                   <div className="flex items-start gap-3">
                     <Icon name="Phone" size={20} className="mt-1 text-gold" />
-                    <p className="text-gray-700">+7 (495) 123-45-67</p>
+                    <p className="text-gray-700">+7 (950)168 60 91</p>
                   </div>
                   <div className="flex items-start gap-3">
                     <Icon name="Mail" size={20} className="mt-1 text-gold" />
-                    <p className="text-gray-700">info@chronos.ru</p>
+                    <p className="text-gray-700">info@rufmstyle.ru</p>
                   </div>
                   <div className="flex items-start gap-3">
                     <Icon name="Clock" size={20} className="mt-1 text-gold" />
@@ -305,8 +298,8 @@ const Index = () => {
 
       <footer className="bg-black text-white py-12 px-6">
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl mb-4 font-light tracking-wider">CHRONOS</h2>
-          <p className="text-gray-400 mb-6">Искусство времени с 1875 года</p>
+          <h2 className="text-3xl mb-4 font-light tracking-wider">Rufm&Style</h2>
+          <p className="text-gray-400 mb-6">Искусство времени с 1998 года</p>
           <div className="flex justify-center gap-6 mb-8">
             <a href="#" className="hover:text-gold transition-colors">
               <Icon name="Instagram" size={24} />
@@ -318,7 +311,7 @@ const Index = () => {
               <Icon name="Twitter" size={24} />
             </a>
           </div>
-          <p className="text-sm text-gray-500">© 2024 CHRONOS. Все права защищены.</p>
+          <p className="text-sm text-gray-500">© 2025 RUFM&STYLE. Все права защищены.</p>
         </div>
       </footer>
     </div>
