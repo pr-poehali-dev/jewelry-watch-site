@@ -80,12 +80,8 @@ const Index = () => {
         <section id="home" className="relative h-screen flex items-center justify-center bg-gradient-to-br from-black via-black to-gray-900">
           <div className="absolute inset-0 bg-[url('/placeholder.svg')] bg-cover bg-center opacity-20"></div>
           <div className="relative z-10 text-center px-6 animate-fade-in">
-            <h2 className="text-6xl md:text-8xl font-light text-white mb-6 tracking-wider">
-              ИСКУССТВО<br />ВРЕМЕНИ
-            </h2>
-            <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto font-light">
-              Эксклюзивные ювелирные часы швейцарского качества
-            </p>
+            <h2 className="md:text-8xl mb-6 tracking-wider mx-0 text-8xl font-thin text-[#ffffff]">RUFM&STYLE</h2>
+            <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto font-light">Эксклюзивные ювелирные часы на ваш вкус</p>
             <Button 
               size="lg"
               className="bg-gold hover:bg-gold/90 text-black font-medium px-12 py-6 text-lg tracking-wider"
