@@ -12,31 +12,31 @@ const Index = () => {
       name: 'Classique', 
       description: 'Классическая коллекция',
       price: '1 250 000 ₽',
-      image: 'https://cdn.poehali.dev/projects/70c59a89-c94f-4efc-aee0-8d7973fefe92/files/4ed1606b-31df-4f6a-a656-2d55e14fb40f.jpg'
+      image: 'https://cdn.poehali.dev/files/813c2a2f-e122-4851-95c9-280e0b5641bf.png'
     },
     { 
       id: 2, 
       name: 'Prestige', 
       description: 'Престижная серия',
       price: '2 890 000 ₽',
-      image: 'https://cdn.poehali.dev/projects/70c59a89-c94f-4efc-aee0-8d7973fefe92/files/71e00f65-18fa-4d22-bbc6-7c981dafd12b.jpg'
+      image: 'https://cdn.poehali.dev/files/6841a48f-f562-49c7-84d4-52c888d1e495.png'
     },
     { 
       id: 3, 
       name: 'Heritage', 
       description: 'Наследие мастеров',
       price: '3 450 000 ₽',
-      image: 'https://cdn.poehali.dev/projects/70c59a89-c94f-4efc-aee0-8d7973fefe92/files/adff7cc4-6fd4-40e9-b9d5-66f943c63c4c.jpg'
+      image: 'https://cdn.poehali.dev/files/7ea2564a-d818-49f2-a794-22c252eea698.png'
     },
   ];
 
   const catalogItems = [
-    { id: 1, name: 'Royal Eclipse', collection: 'Classique', price: '1 250 000 ₽', image: 'https://cdn.poehali.dev/projects/70c59a89-c94f-4efc-aee0-8d7973fefe92/files/4ed1606b-31df-4f6a-a656-2d55e14fb40f.jpg' },
-    { id: 2, name: 'Grand Prestige', collection: 'Prestige', price: '2 890 000 ₽', image: 'https://cdn.poehali.dev/projects/70c59a89-c94f-4efc-aee0-8d7973fefe92/files/71e00f65-18fa-4d22-bbc6-7c981dafd12b.jpg' },
-    { id: 3, name: 'Heritage Gold', collection: 'Heritage', price: '3 450 000 ₽', image: 'https://cdn.poehali.dev/projects/70c59a89-c94f-4efc-aee0-8d7973fefe92/files/adff7cc4-6fd4-40e9-b9d5-66f943c63c4c.jpg' },
-    { id: 4, name: 'Platinum Elite', collection: 'Prestige', price: '4 120 000 ₽', image: 'https://cdn.poehali.dev/projects/70c59a89-c94f-4efc-aee0-8d7973fefe92/files/4ed1606b-31df-4f6a-a656-2d55e14fb40f.jpg' },
-    { id: 5, name: 'Eternal Elegance', collection: 'Classique', price: '1 890 000 ₽', image: 'https://cdn.poehali.dev/projects/70c59a89-c94f-4efc-aee0-8d7973fefe92/files/71e00f65-18fa-4d22-bbc6-7c981dafd12b.jpg' },
-    { id: 6, name: 'Diamond Infinity', collection: 'Heritage', price: '5 200 000 ₽', image: 'https://cdn.poehali.dev/projects/70c59a89-c94f-4efc-aee0-8d7973fefe92/files/adff7cc4-6fd4-40e9-b9d5-66f943c63c4c.jpg' },
+    { id: 1, name: 'Royal Eclipse', collection: 'Classique', price: '1 250 000 ₽', image: 'https://cdn.poehali.dev/files/813c2a2f-e122-4851-95c9-280e0b5641bf.png' },
+    { id: 2, name: 'Grand Prestige', collection: 'Prestige', price: '2 890 000 ₽', image: 'https://cdn.poehali.dev/files/6841a48f-f562-49c7-84d4-52c888d1e495.png' },
+    { id: 3, name: 'Heritage Gold', collection: 'Heritage', price: '3 450 000 ₽', image: 'https://cdn.poehali.dev/files/7ea2564a-d818-49f2-a794-22c252eea698.png' },
+    { id: 4, name: 'Platinum Elite', collection: 'Prestige', price: '4 120 000 ₽', image: 'https://cdn.poehali.dev/files/a19965ef-5185-4f09-a5ef-35bc56e0ca98.png' },
+    { id: 5, name: 'Eternal Elegance', collection: 'Classique', price: '1 890 000 ₽', image: 'https://cdn.poehali.dev/files/3b94cea1-ca7e-49f5-87b1-fe51a9af4f9c.png' },
+    { id: 6, name: 'Diamond Infinity', collection: 'Heritage', price: '5 200 000 ₽', image: 'https://cdn.poehali.dev/files/813c2a2f-e122-4851-95c9-280e0b5641bf.png' },
   ];
 
   const scrollToSection = (section: string) => {
